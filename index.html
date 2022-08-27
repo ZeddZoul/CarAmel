@@ -16,10 +16,8 @@
       <li><i class="fa-solid fa-location-pin"></i></li>
       <li>JOURNAL</li>
       <li>
-      <form id="form" style="display: inline; width: max-content;" action="">
+        <i id="search-icon" class="fa-solid fa-magnifying-glass"></i>
         <input id="search" type="text" placeholder="SEARCH"> 
-   <i id="search-icon" class="fa-solid fa-magnifying-glass"></i>
-      </form>
         </li>
     </ul>
     <div>
@@ -93,13 +91,5 @@
     </ul>
   </footer>
 
-  <script>
-const search_icon = document.getElementById("search-icon")
-const form = document.getElementById("form")
-search_icon.onclick = _ => {
-  form.submit()
-}
-
-  </script>
 </body>
 </html>
