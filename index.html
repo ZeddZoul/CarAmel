@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/dd22d22299.js" crossorigin="anonymous"></script>
+  <title>CarAmel</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>
+    <ul>
+      <li>ABOUT</li>
+      <li>EXPLORE</li>
+      <li><i class="fa-solid fa-location-pin"></i></li>
+      <li>JOURNAL</li>
+      <li>
+      <form id="form" style="display: inline; width: max-content;" action="">
+        <input id="search" type="text" placeholder="SEARCH"> 
+   <i id="search-icon" class="fa-solid fa-magnifying-glass"></i>
+      </form>
+        </li>
+    </ul>
+    <div>
+      <h2>CarAmel</h2>
+    <p>Experience The Speed of Light</p>
+    </div>
+  </header>
+  <div class="main">
+      <div class="topic">
+        <h2>Explore the Speed</h2>
+        <p>We seek to provide the most beautiful and sleek cars from various producers, the fastest cars ever made, all for the speed fanatics and car lovers. Our long-term mission is to distribute cars worldwide and enable people experience speed like never before, while keeping them safe</p>
+      </div>
+      <div class="catalogue">
+        <div>
+          <div class="Koegnigsegg">
+            <span><h3>Koegnigsegg</h3>
+              <p>Model</p></span>
+          </div>
+          <div class="bmw">
+            <span><h3>BMW</h3>
+              <p>Model</p></span>
+          </div>
+          <div class="Tesla">
+         <span>
+          <h3>Tesla</h3>
+          <p>Model</p>
+         </span>
+          </div>
+        </div>
+        <a href="#">See  More ></a>
+      </div>
+
+      <div class="journal">
+            <div class="topic">
+              <h2>The Journal</h2>
+            <p>Our favourite stories about experiences with our cars</p>
+            </div>
+            <div class="flex">
+              <div id="jour1">
+                
+<span>                <p>
+  August 26, 2022
+</p>
+<h3>An Unforgettable</h3>
+<p>You only have one life. Live the fast life</p></span>
+              </div>
+              <div id="jour2">
+      
+           <span>     <p>
+            August 26, 2022
+          </p>
+          <h3>Symphonies in Steel</h3>
+          <p>How His Tesla found Him his Soulmate</p></span>
+              </div>
+            </div>
+
+            <a href="#">ALL POSTS ></a>
+
+      </div>
+
+  </div>
+
+  <footer>
+    <ul>
+    <li>
+      &copy; CarAmel. All rights reserved
+    </li>  <br>
+    <li>ABOUT</li>
+    <li>EXPLORE</li>
+    <li>JOURNAL</li>
+    </ul>
+  </footer>
+
+  <script>
+const search_icon = document.getElementById("search-icon")
+const form = document.getElementById("form")
+search_icon.onclick = _ => {
+  form.submit()
+}
+
+  </script>
+</body>
+</html>
