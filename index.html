@@ -146,9 +146,11 @@
   const close = document.querySelector(".fa-x")
 menuBtn.onclick = _ => {
 menu.style.right = " 0px"
+menu.style.display = "block"
 document.body.style.overflowY = "hidden"
 }
 close.onclick = _ => {
+  menu.style.display = "none"
   menu.style.right = "-1000px"
   document.body.style.overflowY = "auto"
 }

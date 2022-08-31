@@ -208,6 +208,7 @@ header ul {
   top: 20px;
   right: -1000px;
   padding: 15px;
+  display: none;
 }
 .mobile-menu i {
   position: absolute;
