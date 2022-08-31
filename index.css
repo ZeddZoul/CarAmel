@@ -167,6 +167,8 @@ header {
   position: relative;
   padding-bottom: 10%;
   padding-top: 10px;
+  transition: background .4s  linear;
+  
 }
 header > div {
   position: absolute;
